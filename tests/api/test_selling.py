@@ -6,10 +6,10 @@ def test_list_item_is_successful(api_client):
     Checks for a successful response and confirms a ListingId is returned.
     """
     # Arrange: Create a payload for the new item.
-    # Use a timestamp to ensure the title is unique for each test run.
+    # Use a timestamp to ensure the title is unique for each test run. It's Netcracker habbit
     unique_timestamp = int(time.time())
     item_payload = {
-        "Category": "3413-",  # A valid sandbox category
+        "Category": "3413-",
         "Title": f"My Test item {unique_timestamp}",
         "Description": ["This is test data."],
         "Duration": 7,
@@ -28,7 +28,7 @@ def test_list_item_is_successful(api_client):
     
     # FOR DEBUGGING
     if response.status_code != 200:
-        print("\nAPI Error Response:", response.json()) # <-- This line is now correctly indented
+        print("\nAPI Error Response:", response.json())
 
     # Assert: Check the response
     assert response.status_code == 200, f"Expected status 200 but got {response.status_code}"

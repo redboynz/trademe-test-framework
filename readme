@@ -1,41 +1,24 @@
-#Instructions and design notes. 
-# TM API Automation Framework
+#Instructions for TM API test
 
-## Prerequisites
-
+# Prerequisites
 - Python 3.8+
 - `pip` and `venv`
 
-## Setup
-
-1.  **Clone the Repository**
-    ```bash
-    git clone <your_repository_url>
-    cd trademe_python_automation
-    ```
-
-2.  **Create and Activate a Virtual Environment**
+# Setup
+1. Clone the Repository
+2. Create and Activate a Virtual Environment
     
     # For Windows
     python -m venv venv
     .\venv\Scripts\activate
-    ```
 
-3.  **Install Dependencies**
-    ```bash
+3.  Install Dependencies
     pip install -r requirements.txt
-    ```
-
-4.  **Configure API Credentials**
+    
+4.  Configure API Credentials
     - Copy the sample environment file:
-      ```bash
-      cp .env.sample .env
-      ```
-    - Open the newly created `.env` file and replace the placeholder values with your actual credentials from the TradeMe Developer Portal. **This file is intentionally ignored by Git to keep your secrets safe.**
+    - Open the newly created `.env` file and replace the placeholder values with your actual credentials from the TradeMe Developer Portal.
 
-## How to Run Tests
+# How to Run Tests
 
-To execute all the automated tests, simply run `pytest` from the root directory of the project:
-
-```bash
-pytest
+To execute all the automated tests, simply run `pytest` from the root directory of the project

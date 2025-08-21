@@ -1,7 +1,14 @@
-.env
+__pycache__/
 
 # Virtual Environment
 venv/
 .venv/
 ENV/
 env/
+
+# Test Artifacts
+.pytest_cache/
+.coverage
+
+# Secrets - VERY IMPORTANT
+.env
