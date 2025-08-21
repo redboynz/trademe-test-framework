@@ -1,0 +1,7 @@
+# Python package dependencies for TM test framework
+# to use: pip install -r requirements.txt
+
+pytest			# Main testing framework
+requests		# HTTP client library
+requests-oauthlib	# For OAuth authentication
+python-dotenv		# to load environment variable

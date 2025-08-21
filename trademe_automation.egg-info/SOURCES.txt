@@ -1,0 +1,5 @@
+pyproject.toml
+trademe_automation.egg-info/PKG-INFO
+trademe_automation.egg-info/SOURCES.txt
+trademe_automation.egg-info/dependency_links.txt
+trademe_automation.egg-info/top_level.txt

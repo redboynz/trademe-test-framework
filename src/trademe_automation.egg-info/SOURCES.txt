@@ -1,0 +1,10 @@
+pyproject.toml
+src/trademe_automation/__init__.py
+src/trademe_automation.egg-info/PKG-INFO
+src/trademe_automation.egg-info/SOURCES.txt
+src/trademe_automation.egg-info/dependency_links.txt
+src/trademe_automation.egg-info/top_level.txt
+src/trademe_automation/api-client/__init__.py
+src/trademe_automation/api-client/api-client.py
+src/trademe_automation/config/__init__.py
+src/trademe_automation/config/settings.py
